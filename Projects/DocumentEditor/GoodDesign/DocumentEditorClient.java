@@ -82,7 +82,7 @@ class FileStorage implements Persistence{
     @Override
     public void save(String data){
         try {
-            FileWriter outFile = new FileWriter("document.txt");
+            FileWriter outFile = new FileWriter("doc.txt");
             outFile.write(data);
             outFile.close();
             System.out.println("Document saved to doc.txt");
