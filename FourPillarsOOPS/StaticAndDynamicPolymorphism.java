@@ -1,17 +1,4 @@
-/*
-Dynamic Polymorphism in real life says that 2 Objects coming from same
-family will respond to same stimulus differently. Like in real world Manual
-car and Electric car will respond to accelerate() differently.
-
-To represent this in programming, we create a parent class that defines all
-characters and behaviours that are generic to all child classes and are also same in
-all child classes but make those methods abstract that are generic to all
-child classes but all child class will behave differently. Then those child class
-will provide implementation details of these abstract methods the way they want.
-*/
-
-
-
+// Base Car Class
 abstract class Car {
     protected String brand;
     protected String model;
@@ -37,9 +24,9 @@ abstract class Car {
         System.out.println(brand + " " + model + " :  Engine turned off");
     }
 
-    // Abstract methods for dynamic polymorphism
-    public abstract void accelerate();
-    public abstract void brake();
+    public abstract void accelerate(); // Abstract method for dynamic polymorphism
+    public abstract void accelerate(int speed); // Abstract method for static polymorphism
+    public abstract void brake();// Abstract method for dynamic polymorphism
 }
 
 
@@ -65,6 +52,16 @@ class ManualCar extends Car{
         }
         currentSpeed += 20;
         System.out.println(brand + " " + model + " :  Accelerating to " + currentSpeed + "km/h");
+    }
+
+    // static polymorphism - overriding accelerate
+    public void accelerate(int speed){
+    if(!isEngineOn){
+        System.out.println(brand + " " + model + " :  Cannot accelerate! Engine is off!");
+        return ;
+    }
+    currentSpeed += speed;
+    System.out.println(brand + " " + model + " :  Accelerating to " + currentSpeed + "km/h");
     }
 
     @Override 
@@ -106,6 +103,22 @@ class ElectricCar extends Car{
         System.out.println(brand + " " + model + " :  Battery Level is " + batteryLevel + "%");
     }
 
+    // static polymorphism - overriding accelerate
+    public void accelerate(int speed){
+    if(!isEngineOn){
+        System.out.println(brand + " " + model + " :  Cannot accelerate! Engine is off!");
+        return ;
+    }
+    if(batteryLevel <= 0){
+        System.out.println(brand + " " + model + " :  Accelerating to " + currentSpeed + "km/h. Battery at " + batteryLevel + "%");
+        return ;
+    }
+    batteryLevel -= + speed;
+    currentSpeed += speed;
+    System.out.println(brand + " " + model + " :  Accelerating to " + currentSpeed + "km/h");
+    System.out.println(brand + " " + model + " :  Battery Level is " + batteryLevel + "%");
+    }
+
     @Override 
     public void brake(){
         currentSpeed -= 15;
@@ -119,7 +132,7 @@ class ElectricCar extends Car{
 
 
 
-public class DynamicPolymophism {
+public class StaticAndDynamicPolymorphism {
     public static void main(String[] args) {
         ManualCar myManualCar = new ManualCar("Suzuki", "WagonR");
         myManualCar.startEngine();
