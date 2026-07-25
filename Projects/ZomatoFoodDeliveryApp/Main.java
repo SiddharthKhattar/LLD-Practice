@@ -315,23 +315,6 @@ class PickupOrder extends Order { //[cite: 13]
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ======================= MANAGERS =====================
 
 
@@ -396,46 +379,6 @@ class RestaurantManager {
         return result;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -549,8 +492,6 @@ class ScheduledOrderFactory implements OrderFactory{
 
 
 // ======================= SERVICES & UTILS =====================
-
-
 
 
 public class Main {
