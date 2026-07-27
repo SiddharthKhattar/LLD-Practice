@@ -25,11 +25,21 @@ Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" 
 * **Interface Segregation (ISP)**: Preventing fat interfaces by creating smaller, role-specific interfaces.
 * **Dependency Inversion (DIP)**: Depending on abstractions (interfaces) rather than concrete implementations.
 
-### 3. 🎨 Design Patterns (`/DesignPatterns`)
-Standard, reusable solutions to common software design problems. Most directories include `.excalidraw` and `.png` whiteboards for visual mapping.
-* **Creational Patterns**: Abstract Factory, Factory Method (Burger Factory implementations), and Singleton (with extensive thread-safe, double-locking variations).
-* **Structural Patterns**: Adapter, Composite (File System design), and Facade (Computer/BIOS booting logic).
-* **Behavioral Patterns**: Command, Observer (Channel/Subscriber model), Strategy, and Template (Machine Learning Model Trainers).
+### 3. 🧩 Design Patterns
+
+| Creational Patterns | Structural Patterns | Behavioral Patterns |
+| :--- | :--- | :--- |
+| [Singleton](./DesignPatterns/1_CreationalPatterns/Singleton) | [Adapter](./DesignPatterns/2_StructuralPatterns/Adapter) | [Iterator](#) |
+| [Factory Method](./DesignPatterns/1_CreationalPatterns/FactoryMethod) | [Bridge](#) | [Observer](./DesignPatterns/3_BehavioralPatterns/Observer) |
+| [Abstract Factory](./DesignPatterns/1_CreationalPatterns/AbstractFactory) | [Composite](./DesignPatterns/2_StructuralPatterns/Composite) | [Strategy](./DesignPatterns/3_BehavioralPatterns/Strategy) |
+| [Builder](#) | [Decorator](#) | [Command](./DesignPatterns/3_BehavioralPatterns/Command) |
+| [Prototype](#) | [Facade](./DesignPatterns/2_StructuralPatterns/Facade) | [State](#) |
+| | [Flyweight](#) | [Template Method](./DesignPatterns/3_BehavioralPatterns/Template) |
+| | [Proxy](#) | [Visitor](#) |
+| | | [Mediator](#) |
+| | | [Memento](#) |
+| | | [Chain of Responsibility](#) |
+
 
 ### 4. 🛠️ LLD Projects & Case Studies (`/Projects`)
 End-to-end Low-Level Design implementations of real-world systems and games.
