@@ -10,20 +10,20 @@ The goal of this repository is to build a strong foundation in writing clean, sc
 
 The codebase is organized into four main modular directories, each demonstrating core architectural concepts, complete with code implementations and visual diagrams.
 
-### 1. 🏛️ Four Pillars of OOPS (`/FourPillarsOOPS`)
+### 1. 🏛️ [Four Pillars of OOPS](./FourPillarsOOPS)
 Core Object-Oriented Programming foundations demonstrating how to structure data and behavior.
-* **`Abstraction.java`**: Hiding complex implementation details and showing only essential features.
-* **`Encapsulation.java`**: Bundling data and methods together, protecting object state via access modifiers.
-* **`Inheritance.java`**: Demonstrating reusability by allowing child classes to inherit properties from parents.
-* **`StaticPolymorphism.java` & `DynamicPolymophism.java`**: Compile-time (Method Overloading) and Runtime (Method Overriding) polymorphism.
+* **[`Abstraction.java`](./FourPillarsOOPS/Abstraction.java)**: Hiding complex implementation details and showing only essential features.
+* **[`Encapsulation.java`](./FourPillarsOOPS/Encapsulation.java)**: Bundling data and methods together, protecting object state via access modifiers.
+* **[`Inheritance.java`](./FourPillarsOOPS/Inheritance.java)**: Demonstrating reusability by allowing child classes to inherit properties from parents.
+* **[`StaticPolymorphism.java`](./FourPillarsOOPS/StaticPolymorphism.java)** & **[`DynamicPolymophism.java`](./FourPillarsOOPS/DynamicPolymophism.java)**: Compile-time (Method Overloading) and Runtime (Method Overriding) polymorphism.
 
-### 2. 🧱 SOLID Principles (`/SOLID`)
+### 2. 🧱 [SOLID Principles](./SOLID)
 Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" (refactored) approach.
-* **Single Responsibility (SRP)**: Breaking down monolithic classes into single-purpose components.
-* **Open/Closed (OCP)**: Designing systems to be open for extension but closed for modification.
-* **Liskov Substitution (LSP)** *(Folder: `LinkovSubstitution`)*: Deep dive into substituting child classes without breaking the system. Includes specific sub-rules for Methods, Properties, and Signatures (e.g., Pre/Post conditions, Class invariants).
-* **Interface Segregation (ISP)**: Preventing fat interfaces by creating smaller, role-specific interfaces.
-* **Dependency Inversion (DIP)**: Depending on abstractions (interfaces) rather than concrete implementations.
+* **[Single Responsibility (SRP)](./SOLID/SingleResponsibility)**: Breaking down monolithic classes into single-purpose components.
+* **[Open/Closed (OCP)](./SOLID/OpenClosed)**: Designing systems to be open for extension but closed for modification.
+* **[Liskov Substitution (LSP)](./SOLID/LinkovSubstitution)** *(Folder: `LinkovSubstitution`)*: Deep dive into substituting child classes without breaking the system. Includes specific sub-rules for Methods, Properties, and Signatures (e.g., Pre/Post conditions, Class invariants).
+* **[Interface Segregation (ISP)](./SOLID/InterfaceSegregation)**: Preventing fat interfaces by creating smaller, role-specific interfaces.
+* **[Dependency Inversion (DIP)](./SOLID/DependencyInversion)**: Depending on abstractions (interfaces) rather than concrete implementations.
 
 ### 3. 🧩 Design Patterns
 
@@ -39,6 +39,19 @@ Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" 
 | | | [Mediator](./DesignPatterns/3_BehavioralPatterns/MediatorPlusChatRoom) |
 | | | [Memento](./DesignPatterns/3_BehavioralPatterns/Memento) |
 | | | [Chain of Responsibility](./DesignPatterns/3_BehavioralPatterns/ChainOfResponsibility) |
+
+
+### 4. 🛠️ LLD Projects & Case Studies (`/Projects`)
+End-to-end Low-Level Design implementations of real-world systems and games.
+* **[`Chess`](./Projects/Chess)**: Full object-oriented breakdown of a standard chess game.
+* **[`DocumentEditor`](./Projects/DocumentEditor)**: A comparative look at `BadDesign` vs. `GoodDesign` when building a text editor.
+* **[`NotificationSystem`](./Projects/NotificationSystem)**: A robust alert engine utilizing Observer, Strategy, and Decorator patterns (Email, SMS, PopUp).
+* **[`PaymentGatewaySystem`](./Projects/PaymentGatewaySystem)**: Handling transactions securely and modularly.
+* **[`SnakesAndLadders`](./Projects/SnakesAndLadders)** & **[`TicTacToe`](./Projects/TicTacToe)**: Classic board game logic emphasizing grid scalability and decoupled game loops.
+* **[`SplitwiseApp`](./Projects/SplitwiseApp)**: Implementation of the user expense splitting application.
+* **[`Spotify`](./Projects/Spotify)**: An audio streaming system design featuring device management, playback strategies, and audio engines.
+* **[`Tinder`](./Projects/Tinder)**: A structural clone implementation of the matching application.
+* **[`ZomatoFoodDeliveryApp`](./Projects/ZomatoFoodDeliveryApp)**: A complex, multi-layered monolithic application structure including models, managers, factories, services, and strategies for processing food orders (Credit Card, UPI).
 
 ---
 
