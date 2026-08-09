@@ -40,19 +40,6 @@ Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" 
 | | | [Memento](./DesignPatterns/3_BehavioralPatterns/Memento) |
 | | | [Chain of Responsibility](./DesignPatterns/3_BehavioralPatterns/ChainOfResponsibility) |
 
-
-### 4. 🛠️ LLD Projects & Case Studies (`/Projects`)
-End-to-end Low-Level Design implementations of real-world systems and games.
-* **[`Chess`](./Projects/Chess)**: Full object-oriented breakdown of a standard chess game.
-* **[`DocumentEditor`](./Projects/DocumentEditor)**: A comparative look at `BadDesign` vs. `GoodDesign` when building a text editor.
-* **[`NotificationSystem`](./Projects/NotificationSystem)**: A robust alert engine utilizing Observer, Strategy, and Decorator patterns (Email, SMS, PopUp).
-* **[`PaymentGatewaySystem`](./Projects/PaymentGatewaySystem)**: Handling transactions securely and modularly.
-* **[`SnakesAndLadders`](./Projects/SnakesAndLadders)** & **[`TicTacToe`](./Projects/TicTacToe)**: Classic board game logic emphasizing grid scalability and decoupled game loops.
-* **[`SplitwiseApp`](./Projects/SplitwiseApp)**: Implementation of the user expense splitting application.
-* **[`Spotify`](./Projects/Spotify)**: An audio streaming system design featuring device management, playback strategies, and audio engines.
-* **[`Tinder`](./Projects/Tinder)**: A structural clone implementation of the matching application.
-* **[`ZomatoFoodDeliveryApp`](./Projects/ZomatoFoodDeliveryApp)**: A complex, multi-layered monolithic application structure including models, managers, factories, services, and strategies for processing food orders (Credit Card, UPI).
-
 ---
 
 ## ⚙️ Tech Stack & Implementation Details
