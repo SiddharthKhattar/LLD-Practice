@@ -119,7 +119,7 @@ class ElectricCar extends Car{
 
 
 
-public class DynamicPolymophism {
+public class DynamicPolymorphism {
     public static void main(String[] args) {
         ManualCar myManualCar = new ManualCar("Suzuki", "WagonR");
         myManualCar.startEngine();

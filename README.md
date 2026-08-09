@@ -21,7 +21,7 @@ Core Object-Oriented Programming foundations demonstrating how to structure data
 Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" (refactored) approach.
 * **[Single Responsibility (SRP)](./SOLID/SingleResponsibility)**: Breaking down monolithic classes into single-purpose components.
 * **[Open/Closed (OCP)](./SOLID/OpenClosed)**: Designing systems to be open for extension but closed for modification.
-* **[Liskov Substitution (LSP)](./SOLID/LinkovSubstitution)** *(Folder: `LinkovSubstitution`)*: Deep dive into substituting child classes without breaking the system. Includes specific sub-rules for Methods, Properties, and Signatures (e.g., Pre/Post conditions, Class invariants).
+* **[Liskov Substitution (LSP)](./SOLID/LiskovSubstitution)** *(Folder: `LiskovSubstitution`)*: Deep dive into substituting child classes without breaking the system. Includes specific sub-rules for Methods, Properties, and Signatures (e.g., Pre/Post conditions, Class invariants).
 * **[Interface Segregation (ISP)](./SOLID/InterfaceSegregation)**: Preventing fat interfaces by creating smaller, role-specific interfaces.
 * **[Dependency Inversion (DIP)](./SOLID/DependencyInversion)**: Depending on abstractions (interfaces) rather than concrete implementations.
 
@@ -52,6 +52,27 @@ End-to-end Low-Level Design implementations of real-world systems and games.
 * **[`Spotify`](./Projects/Spotify)**: An audio streaming system design featuring device management, playback strategies, and audio engines.
 * **[`Tinder`](./Projects/Tinder)**: A structural clone implementation of the matching application.
 * **[`ZomatoFoodDeliveryApp`](./Projects/ZomatoFoodDeliveryApp)**: A complex, multi-layered monolithic application structure including models, managers, factories, services, and strategies for processing food orders (Credit Card, UPI).
+
+---
+
+## 🚀 How to Run and Compile
+
+To keep the focus strictly on core Object-Oriented Design and Java principles, this repository intentionally avoids heavy build tools like Maven or Gradle. It is a pure Java project. 
+
+**Method 1: Using an IDE (Recommended)**
+1. Clone the repository to your local machine.
+2. Open the root folder in your preferred IDE (**IntelliJ IDEA**, **Eclipse**, or **VS Code**).
+3. Navigate to any project folder or design pattern containing a `main` method (e.g., `Projects/TicTacToe/TicTacToeMain.java` or `Projects/ZomatoFoodDeliveryApp/Main.java`).
+4. Click the "Run" button provided by your IDE.
+
+**Method 2: Using the Command Line (CLI)**
+Ensure you have the Java Development Kit (JDK) installed. Open your terminal, navigate to the directory of the file you want to execute, and compile/run it using `javac` and `java`:
+
+```bash
+# Example: Running the Tic Tac Toe project
+cd Projects/TicTacToe
+javac TicTacToeMain.java
+java TicTacToeMain
 
 ---
 
