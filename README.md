@@ -21,7 +21,7 @@ Core Object-Oriented Programming foundations demonstrating how to structure data
 Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" (refactored) approach.
 * **[Single Responsibility (SRP)](./SOLID/SingleResponsibility)**: Breaking down monolithic classes into single-purpose components.
 * **[Open/Closed (OCP)](./SOLID/OpenClosed)**: Designing systems to be open for extension but closed for modification.
-* **[Liskov Substitution (LSP)](./SOLID/LiskovSubstitution)** *(Folder: `LiskovSubstitution`)*: Deep dive into substituting child classes without breaking the system. Includes specific sub-rules for Methods, Properties, and Signatures (e.g., Pre/Post conditions, Class invariants).
+* **[Liskov Substitution (LSP)](./SOLID/LiskovSubstitution)**: Deep dive into substituting child classes without breaking the system. Includes specific sub-rules for Methods, Properties, and Signatures (e.g., Pre/Post conditions, Class invariants).
 * **[Interface Segregation (ISP)](./SOLID/InterfaceSegregation)**: Preventing fat interfaces by creating smaller, role-specific interfaces.
 * **[Dependency Inversion (DIP)](./SOLID/DependencyInversion)**: Depending on abstractions (interfaces) rather than concrete implementations.
 
@@ -73,7 +73,7 @@ Ensure you have the Java Development Kit (JDK) installed. Open your terminal, na
 cd Projects/TicTacToe
 javac TicTacToeMain.java
 java TicTacToeMain
-
+```
 ---
 
 ## ⚙️ Tech Stack & Implementation Details
