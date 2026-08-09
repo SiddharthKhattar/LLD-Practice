@@ -29,26 +29,29 @@ Each principle is demonstrated using a "Violated" (anti-pattern) and "Followed" 
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 | :--- | :--- | :--- |
-| [Singleton](./DesignPatterns/1_CreationalPatterns/Singleton) | [Adapter](./DesignPatterns/2_StructuralPatterns/Adapter) | [Iterator](#) |
-| [Factory Method](./DesignPatterns/1_CreationalPatterns/FactoryMethod) | [Bridge](#) | [Observer](./DesignPatterns/3_BehavioralPatterns/Observer) |
+| [Singleton](./DesignPatterns/1_CreationalPatterns/Singleton) | [Adapter](./DesignPatterns/2_StructuralPatterns/Adapter) | [Iterator](./DesignPatterns/3_BehavioralPatterns/Iterator) |
+| [Factory Method](./DesignPatterns/1_CreationalPatterns/FactoryMethod) | [Bridge](./DesignPatterns/2_StructuralPatterns/Bridge) | [Observer](./DesignPatterns/3_BehavioralPatterns/Observer) |
 | [Abstract Factory](./DesignPatterns/1_CreationalPatterns/AbstractFactory) | [Composite](./DesignPatterns/2_StructuralPatterns/Composite) | [Strategy](./DesignPatterns/3_BehavioralPatterns/Strategy) |
 | [Builder](#) | [Decorator](#) | [Command](./DesignPatterns/3_BehavioralPatterns/Command) |
-| [Prototype](#) | [Facade](./DesignPatterns/2_StructuralPatterns/Facade) | [State](#) |
+| [Prototype](#) | [Facade](./DesignPatterns/2_StructuralPatterns/Facade) | [State](./DesignPatterns/3_BehavioralPatterns/StateDesignAndVendingMachine) |
 | | [Flyweight](#) | [Template Method](./DesignPatterns/3_BehavioralPatterns/Template) |
-| | [Proxy](#) | [Visitor](#) |
-| | | [Mediator](#) |
-| | | [Memento](#) |
-| | | [Chain of Responsibility](#) |
+| | [Proxy](./DesignPatterns/2_StructuralPatterns/Proxy) | [Visitor](#) |
+| | | [Mediator](./DesignPatterns/3_BehavioralPatterns/MediatorPlusChatRoom) |
+| | | [Memento](./DesignPatterns/3_BehavioralPatterns/Memento) |
+| | | [Chain of Responsibility](./DesignPatterns/3_BehavioralPatterns/ChainOfResponsibility) |
 
 
 ### 4. 🛠️ LLD Projects & Case Studies (`/Projects`)
 End-to-end Low-Level Design implementations of real-world systems and games.
-* **`Chess`**: Full object-oriented breakdown of a standard chess game.
-* **`DocumentEditor`**: A comparative look at `BadDesign` vs. `GoodDesign` when building a text editor.
-* **`NotificationSystem`**: A robust alert engine utilizing Observer, Strategy, and Decorator patterns (Email, SMS, PopUp).
-* **`PaymentGatewaySystem`**: Handling transactions securely and modularly.
-* **`SnakesAndLadders` & `TicTacToe`**: Classic board game logic emphasizing grid scalability and decoupled game loops.
-* **`ZomatoFoodDeliveryApp`**: A complex, multi-layered monolithic application structure including models, managers, factories, services, and strategies for processing food orders (Credit Card, UPI).
+* **[`Chess`](./Projects/Chess)**: Full object-oriented breakdown of a standard chess game.
+* **[`DocumentEditor`](./Projects/DocumentEditor)**: A comparative look at `BadDesign` vs. `GoodDesign` when building a text editor.
+* **[`NotificationSystem`](./Projects/NotificationSystem)**: A robust alert engine utilizing Observer, Strategy, and Decorator patterns (Email, SMS, PopUp).
+* **[`PaymentGatewaySystem`](./Projects/PaymentGatewaySystem)**: Handling transactions securely and modularly.
+* **[`SnakesAndLadders`](./Projects/SnakesAndLadders)** & **[`TicTacToe`](./Projects/TicTacToe)**: Classic board game logic emphasizing grid scalability and decoupled game loops.
+* **[`SplitwiseApp`](./Projects/SplitwiseApp)**: Implementation of the user expense splitting application.
+* **[`Spotify`](./Projects/Spotify)**: An audio streaming system design featuring device management, playback strategies, and audio engines.
+* **[`Tinder`](./Projects/Tinder)**: A structural clone implementation of the matching application.
+* **[`ZomatoFoodDeliveryApp`](./Projects/ZomatoFoodDeliveryApp)**: A complex, multi-layered monolithic application structure including models, managers, factories, services, and strategies for processing food orders (Credit Card, UPI).
 
 ---
 
