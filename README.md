@@ -90,11 +90,12 @@ Below is a comprehensive list of common LLD / Machine Coding interview problems,
 | **Design ATM** | 5.0/10 | A classic State/Chain of Responsibility pattern problem, but slightly outdated. |
 | **Design a Social Network** | 5.0/10 | Primarily an HLD question, though designing Post/Comment models is good practice. |
 | **Design Hotel Management** | 5.5/10 | Standard entity modeling, but less common than booking a specific ticket/seat. |
-| **Design Music Streaming** | 5.5/10 | Good for state management (Play/Pause), but audio chunking is HLD. |
+| **[Design Music Streaming (Spotify)](./Projects/Spotify)** | 5.5/10 | Good for state management (Play/Pause), audio engine abstractions, and device adapter strategy. |
 | **Design a Task Management System**| 6.0/10 | Good practice for the Command pattern, but lacks the complexity tier-1 companies want. |
 | **Design Car Rental System** | 6.0/10 | A solid inventory management problem, but slightly easier than modern equivalents. |
 | **Design Online Stock Brokerage** | 6.0/10 | Excellent for the Observer pattern, but financial domain logic can distract from pure design. |
 | **Design a Digital Wallet Service** | 6.5/10 | Great for practicing concurrency and thread safety; core OOP design is relatively simple. |
+| **[Design Dating App (Tinder)](./Projects/Tinder)** | 6.5/10 | Great for practicing recommendation strategy, user profile matching, and geographic geo-hashing principles. |
 | **Design Restaurant Management** | 6.5/10 | A simplified version of Food Delivery; usually skipped in favor of Swiggy/Zomato. |
 
 ### 🔹 Highly Relevant & Common (7.0 - 8.5)
@@ -103,14 +104,17 @@ Below is a comprehensive list of common LLD / Machine Coding interview problems,
 | Problem | Rating | Rationale |
 | :--- | :---: | :--- |
 | **Design Pub Sub System** | 7.0/10 | The ultimate test for the Observer pattern and concurrent queue management. |
+| **[Design Document Editor](./Projects/DocumentEditor)** | 7.5/10 | Excellent for demonstrating Decorator, Command, and Flyweight patterns alongside clean architecture refactoring. |
 | **Design Logging Framework** | 7.5/10 | The standard way companies test your knowledge of Chain of Responsibility and Singleton. |
 | **Design a Library Management** | 7.5/10 | The quintessential basic OOP interview question. Expect this in early-career interviews. |
 | **Design Ride-Sharing (Uber)** | 7.5/10 | Tests location-based matching algorithms alongside driver/rider state machines. |
 | **Design Online Shopping** | 7.5/10 | Massive scope, but tests core concepts like Cart, Checkout, and Payment interfaces. |
+| **[Design Notification System](./Projects/NotificationSystem)** | 8.0/10 | Highly asked for evaluating Observer, Strategy, and Decorator patterns across multi-channel alerting engines. |
+| **[Design Payment Gateway System](./Projects/PaymentGatewaySystem)** | 8.0/10 | Essential fintech interview problem testing strategy routing, transaction state machines, and third-party integrations. |
 | **Design a Vending Machine** | 8.0/10 | The absolute gold standard for testing the **State Design Pattern**. |
 | **Design a Concert Ticket System** | 8.0/10 | A great concurrency challenge (handling simultaneous bookings). |
 | **Design LRU Cache** | 8.5/10 | Extremely frequent. Tests combining Data Structures (HashMap + Doubly Linked List) cleanly. |
-| **Design Tic Tac Toe Game** | 8.5/10 | The most common entry-level LLD question. Tests extensibility (e.g., N x N grids). |
+| **[Design Tic Tac Toe Game](./Projects/TicTacToe)** | 8.5/10 | The most common entry-level LLD question. Tests extensibility (e.g., N x N grids). |
 
 ### 🔥 The Absolute Classics / "Must-Knows" (9.0 - 10.0)
 *If you are preparing for LLD at Tier-1 tech companies, you must be able to code these flawlessly. They are asked constantly.*
@@ -118,9 +122,9 @@ Below is a comprehensive list of common LLD / Machine Coding interview problems,
 | Problem | Rating | Rationale |
 | :--- | :---: | :--- |
 | **Design an Elevator System** | 9.0/10 | The ultimate test of state management, direction algorithms (e.g., SCAN), and concurrent requests. |
-| **Design a Snake and Ladder game**| 9.0/10 | A staple board game question testing entity encapsulation and cleanly decoupled game loops. |
+| **[Design Snake and Ladder Game](./Projects/SnakesAndLadders)** | 9.0/10 | A staple board game question testing entity encapsulation and cleanly decoupled game loops. |
 | **Design Movie Ticket Booking** | 9.5/10 | Often framed as "BookMyShow." Tests locking mechanisms, seat mapping, payments, and concurrency. |
-| **Design Food Delivery (Swiggy)** | 9.5/10 | Combines complex state machines (Order Status) with the Strategy pattern (routing, pricing). |
+| **[Design Food Delivery (Zomato / Swiggy)](./Projects/ZomatoFoodDeliveryApp)** | 9.5/10 | Combines complex state machines (Order Status) with the Strategy pattern (routing, pricing). |
 | **Design Parking Lot** | 10.0/10 | **The #1 most asked LLD question globally.** Tests hierarchy, extensibility, Factory, and Strategy patterns. |
-| **Design Chess Game** | 10.0/10 | The gold standard of OOP. Tests deep polymorphism, game state management, and validation logic. |
-| **Design Splitwise** | 10.0/10 | A heavily requested FAANG problem. Tests user management, expense splitting algorithms, and graph simplification. |
+| **[Design Chess Game](./Projects/Chess)** | 10.0/10 | The gold standard of OOP. Tests deep polymorphism, game state management, and validation logic. |
+| **[Design Splitwise](./Projects/SplitwiseApp)** | 10.0/10 | A heavily requested FAANG problem. Tests user management, expense splitting algorithms, and graph simplification. |
